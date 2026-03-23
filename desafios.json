@@ -1,0 +1,82 @@
+[
+  {
+    "titulo": "🐰 Desafio 1",
+    "pergunta1": "Tenho orelhas grandes e pulo sem parar. Quem sou eu?",
+    "pergunta2": "Quanto é 10 + 5?",
+    "resposta1": "coelho",
+    "resposta2": "15",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🍫 Desafio 2",
+    "pergunta1": "Sou doce e venho em forma de ovo. O que sou?",
+    "pergunta2": "Quanto é 6 x 2?",
+    "resposta1": "chocolate",
+    "resposta2": "12",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🥚 Desafio 3",
+    "pergunta1": "Que coisa quebra sem cair?",
+    "pergunta2": "Quanto é 20 ÷ 4?",
+    "resposta1": "ovo",
+    "resposta2": "5",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🐣 Desafio 4",
+    "pergunta1": "Nasço de um ovo e faço piu piu. Quem sou?",
+    "pergunta2": "Quanto é 7 + 3?",
+    "resposta1": "pintinho",
+    "resposta2": "10",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🥕 Desafio 5",
+    "pergunta1": "Sou laranja e o coelho adora. O que sou?",
+    "pergunta2": "Quanto é 9 + 1?",
+    "resposta1": "cenoura",
+    "resposta2": "10",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🌸 Desafio 6",
+    "pergunta1": "Sou colorida e cresço no jardim. Quem sou?",
+    "pergunta2": "Quanto é 5 x 3?",
+    "resposta1": "flor",
+    "resposta2": "15",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🎁 Desafio 7",
+    "pergunta1": "Sou surpresa dentro do ovo. O que sou?",
+    "pergunta2": "Quanto é 8 x 2?",
+    "resposta1": "presente",
+    "resposta2": "16",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🐰 Desafio 8",
+    "pergunta1": "Sou rápido e tenho patas grandes. Quem sou?",
+    "pergunta2": "Quanto é 12 ÷ 3?",
+    "resposta1": "coelho",
+    "resposta2": "4",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🍬 Desafio 9",
+    "pergunta1": "Sou pequeno, doce e colorido. O que sou?",
+    "pergunta2": "Quanto é 14 ÷ 2?",
+    "resposta1": "bala",
+    "resposta2": "7",
+    "device": "BBC micro:bit"
+  },
+  {
+    "titulo": "🏆 Desafio 10",
+    "pergunta1": "Quem encontra todos os ovos ganha o quê?",
+    "pergunta2": "Quanto é 6 x 6?",
+    "resposta1": "premio",
+    "resposta2": "36",
+    "device": "BBC micro:bit"
+  }
+]
