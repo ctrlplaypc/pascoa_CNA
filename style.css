@@ -1,8 +1,14 @@
 body {
-  font-family: Arial;
   text-align: center;
+  font-family: Arial;
   background: #0f172a;
   color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  flex-direction: column;
 }
 
 button {
