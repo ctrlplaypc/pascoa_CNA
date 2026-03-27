@@ -70,7 +70,9 @@ async function buscar() {
   try {
     let d = desafios[atual];
 
-    let device = await navigator.bluetooth.requestDevice({
+    document.getElementById("status").innerText = "🔎 Procurando dispositivo...";
+
+    const device = await navigator.bluetooth.requestDevice({
       filters: [
         { namePrefix: "BBC micro:bit" },
         { namePrefix: "micro:bit" }
@@ -84,18 +86,20 @@ async function buscar() {
       '6e400001-b5a3-f393-e0a9-e50e24dcca9e'
     );
 
-    const characteristic = await service.getCharacteristic(
+    const RX = await service.getCharacteristic(
       '6e400003-b5a3-f393-e0a9-e50e24dcca9e'
     );
 
-    await characteristic.startNotifications();
+    await RX.startNotifications();
 
-    characteristic.addEventListener('characteristicvaluechanged', (event) => {
+    document.getElementById("status").innerText = "📡 Conectado! Aproximando do ovo...";
+
+    RX.addEventListener('characteristicvaluechanged', (event) => {
       let value = new TextDecoder().decode(event.target.value).trim();
 
       console.log("Recebido:", value);
 
-      if (value.includes(d.device)) {
+      if (value === d.device) {
         document.getElementById("status").innerText = "🟢 Ovo correto! Pode procurar!";
 
         if (!radarAtivo) {
@@ -108,8 +112,9 @@ async function buscar() {
       }
     });
 
-  } catch {
-    document.getElementById("status").innerText = "❌ Chegue mais perto";
+  } catch (erro) {
+    console.log(erro);
+    document.getElementById("status").innerText = "❌ Erro ao conectar. Tente novamente.";
   }
 }
 
