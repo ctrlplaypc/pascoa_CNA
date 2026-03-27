@@ -4,7 +4,7 @@
     "pergunta1": "Quanto é 7 × 8?",
     "pergunta2": "Tenho ponteiros que andam sem parar, mas nunca saem do lugar. O que sou?",
     "resposta1": "56",
-    "resposta2": "Relógio",
+    "resposta2": "relogio",
     "device": "ovo1"
   },
   {
@@ -12,7 +12,7 @@
     "pergunta1": "Qual é o resultado de 100 ÷ 4?",
     "pergunta2": "Eu posso abrir portas, mas não sou humano. Tenho dentes, mas não como. O que sou?",
     "resposta1": "25",
-    "resposta2": "Relógio",
+    "resposta2": "chave",
     "device": "ovo2"
   },
   {
@@ -20,39 +20,39 @@
     "pergunta1": "Qual planeta é conhecido como o “planeta vermelho”?",
     "pergunta2": "Quanto mais você me gasta, mais rápido eu passo, mas nunca volto. O que sou?",
     "resposta1": "Marte",
-    "resposta2": "Tempo",
+    "resposta2": "tempo",
     "device": "ovo3"
   },
   {
     "titulo": "🐣 Desafio 4",
     "pergunta1": "Qual é o maior oceano do planeta Terra?",
     "pergunta2": "O que tem mãos, mas não pode bater palmas?",
-    "resposta1": "Pacífico",
-    "resposta2": "Relógio",
+    "resposta1": "pacifico",
+    "resposta2": "relogio",
     "device": "ovo4"
   },
   {
     "titulo": "🥕 Desafio 5",
     "pergunta1": "Qual é o nome do processo que as plantas usam para produzir alimento?",
     "pergunta2": "O que sobe e desce, mas nunca sai do lugar?",
-    "resposta1": "Fotossíntese",
-    "resposta2": "Escada",
+    "resposta1": "fotossintese",
+    "resposta2": "escada",
     "device": "ovo5"
   },
   {
     "titulo": "🌸 Desafio 6",
     "pergunta1": "Qual animal é conhecido como o rei da selva?",
     "pergunta2": "O que você quebra só de falar?",
-    "resposta1": "Leão",
-    "resposta2": "Silencio",
+    "resposta1": "Leao",
+    "resposta2": "silencio",
     "device": "ovo6"
   },
   {
     "titulo": "🎁 Desafio 7",
     "pergunta1": "Qual é a capital do Brasil?",
     "pergunta2": "Quanto mais você tira, maior ele fica. O que é?",
-    "resposta1": "Brasília",
-    "resposta2": "Buraco",
+    "resposta1": "Brasilia",
+    "resposta2": "buraco",
     "device": "ovo7"
   },
   {
@@ -60,23 +60,23 @@
     "pergunta1": "Quantos lados tem um triângulo?",
     "pergunta2": "O que corre, mas não tem pernas?",
     "resposta1": "3",
-    "resposta2": "Água",
+    "resposta2": "agua",
     "device": "ovo8"
   },
   {
     "titulo": "🍬 Desafio 9",
     "pergunta1": "Qual é o oposto de “cheio”?",
     "pergunta2": "O que é leve como uma pena, mas nem o mais forte consegue segurar por muito tempo?",
-    "resposta1": "Vazio",
-    "resposta2": "Respiração",
+    "resposta1": "vazio",
+    "resposta2": "respiraçao",
     "device": "ovo9"
   },
   {
     "titulo": "🏆 Desafio 10",
     "pergunta1": "Qual gás os seres humanos precisam para respirar?",
     "pergunta2": "O que desaparece quando você fala o nome dele?",
-    "resposta1": "Oxigênio",
-    "resposta2": "Silêncio",
+    "resposta1": "oxigenio",
+    "resposta2": "silencio",
     "device": "ovo10"
   }
 ]
