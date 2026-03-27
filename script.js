@@ -99,7 +99,7 @@ async function buscar() {
 
       console.log("Recebido:", value);
 
-      if (value === d.device) {
+      if (value.includes(d.device)) {
         document.getElementById("status").innerText = "🟢 Ovo correto! Pode procurar!";
 
         if (!radarAtivo) {
