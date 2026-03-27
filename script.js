@@ -3,7 +3,6 @@ let usados = JSON.parse(localStorage.getItem("usados")) || {};
 let atual = Number(localStorage.getItem("atual"));
 let radarAtivo = false;
 
-
 // ================= LISTA DE OVOS =================
 async function carregarLista() {
   let res = await fetch("desafios.json");
@@ -90,10 +89,15 @@ async function buscar() {
       '6e400003-b5a3-f393-e0a9-e50e24dcca9e'
     );
 
+    const TX = await service.getCharacteristic(
+      '6e400002-b5a3-f393-e0a9-e50e24dcca9e'
+    );
+
     await RX.startNotifications();
 
     document.getElementById("status").innerText = "📡 Conectado! Aproximando do ovo...";
 
+    // ESCUTA RESPOSTA
     RX.addEventListener('characteristicvaluechanged', (event) => {
       let value = new TextDecoder().decode(event.target.value).trim();
 
@@ -111,6 +115,10 @@ async function buscar() {
         document.getElementById("status").innerText = "❌ Esse não é o ovo certo!";
       }
     });
+
+    // ENVIA PING
+    let encoder = new TextEncoder();
+    await TX.writeValue(encoder.encode("ping\n"));
 
   } catch (erro) {
     console.log(erro);
