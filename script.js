@@ -45,8 +45,16 @@ function selecionar(i) {
 
 // ================= CARREGAR DESAFIO =================
 async function carregarDesafio() {
-  let res = await fetch("desafios.json");
-  desafios = await res.json();
+  // Se atual não estiver definido, volta para a lista
+  if (isNaN(atual)) {
+    window.location.href = "index.html";
+    return;
+  }
+
+  if (desafios.length === 0) {
+    let res = await fetch("desafios.json");
+    desafios = await res.json();
+  }
 
   let d = desafios[atual];
   if (!d) return;
@@ -66,7 +74,10 @@ function validar() {
   let resposta1 = limparTexto(d.resposta1);
   let resposta2 = limparTexto(d.resposta2);
 
-  if (r1 === resposta1 && r2.includes(resposta2)) {
+  console.log("r1:", r1, "resposta1:", resposta1);
+  console.log("r2:", r2, "resposta2:", resposta2);
+
+  if (r1 === resposta1 && r2 === resposta2) {
     usados[atual] = true;
     localStorage.setItem("usados", JSON.stringify(usados));
     window.location.href = "busca.html";
