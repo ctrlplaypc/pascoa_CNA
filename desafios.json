@@ -1,82 +1,82 @@
 [
   {
     "titulo": "🐰 Desafio 1",
-    "pergunta1": "Tenho orelhas grandes e pulo sem parar. Quem sou eu?",
-    "pergunta2": "Quanto é 10 + 5?",
-    "resposta1": "coelho",
-    "resposta2": "15",
+    "pergunta1": "Quanto é 7 × 8?",
+    "pergunta2": "Tenho ponteiros que andam sem parar, mas nunca saem do lugar. O que sou?",
+    "resposta1": "56",
+    "resposta2": "Relógio",
     "device": "ovo1"
   },
   {
     "titulo": "🍫 Desafio 2",
-    "pergunta1": "Sou doce e venho em forma de ovo. O que sou?",
-    "pergunta2": "Quanto é 6 x 2?",
-    "resposta1": "chocolate",
-    "resposta2": "12",
+    "pergunta1": "Qual é o resultado de 100 ÷ 4?",
+    "pergunta2": "Eu posso abrir portas, mas não sou humano. Tenho dentes, mas não como. O que sou?",
+    "resposta1": "25",
+    "resposta2": "Relógio",
     "device": "ovo2"
   },
   {
     "titulo": "🥚 Desafio 3",
-    "pergunta1": "Que coisa quebra sem cair?",
-    "pergunta2": "Quanto é 20 ÷ 4?",
-    "resposta1": "ovo",
-    "resposta2": "5",
+    "pergunta1": "Qual planeta é conhecido como o “planeta vermelho”?",
+    "pergunta2": "Quanto mais você me gasta, mais rápido eu passo, mas nunca volto. O que sou?",
+    "resposta1": "Marte",
+    "resposta2": "Tempo",
     "device": "ovo3"
   },
   {
     "titulo": "🐣 Desafio 4",
-    "pergunta1": "Nasço de um ovo e faço piu piu. Quem sou?",
-    "pergunta2": "Quanto é 7 + 3?",
-    "resposta1": "pintinho",
-    "resposta2": "10",
+    "pergunta1": "Qual é o maior oceano do planeta Terra?",
+    "pergunta2": "O que tem mãos, mas não pode bater palmas?",
+    "resposta1": "Pacífico",
+    "resposta2": "Relógio",
     "device": "ovo4"
   },
   {
     "titulo": "🥕 Desafio 5",
-    "pergunta1": "Sou laranja e o coelho adora. O que sou?",
-    "pergunta2": "Quanto é 9 + 1?",
-    "resposta1": "cenoura",
-    "resposta2": "10",
+    "pergunta1": "Qual é o nome do processo que as plantas usam para produzir alimento?",
+    "pergunta2": "O que sobe e desce, mas nunca sai do lugar?",
+    "resposta1": "Fotossíntese",
+    "resposta2": "Escada",
     "device": "ovo5"
   },
   {
     "titulo": "🌸 Desafio 6",
-    "pergunta1": "Sou colorida e cresço no jardim. Quem sou?",
-    "pergunta2": "Quanto é 5 x 3?",
-    "resposta1": "flor",
-    "resposta2": "15",
+    "pergunta1": "Qual animal é conhecido como o rei da selva?",
+    "pergunta2": "O que você quebra só de falar?",
+    "resposta1": "Leão",
+    "resposta2": "Silencio",
     "device": "ovo6"
   },
   {
     "titulo": "🎁 Desafio 7",
-    "pergunta1": "Sou surpresa dentro do ovo. O que sou?",
-    "pergunta2": "Quanto é 8 x 2?",
-    "resposta1": "presente",
-    "resposta2": "16",
+    "pergunta1": "Qual é a capital do Brasil?",
+    "pergunta2": "Quanto mais você tira, maior ele fica. O que é?",
+    "resposta1": "Brasília",
+    "resposta2": "Buraco",
     "device": "ovo7"
   },
   {
     "titulo": "🐰 Desafio 8",
-    "pergunta1": "Sou rápido e tenho patas grandes. Quem sou?",
-    "pergunta2": "Quanto é 12 ÷ 3?",
-    "resposta1": "coelho",
-    "resposta2": "4",
+    "pergunta1": "Quantos lados tem um triângulo?",
+    "pergunta2": "O que corre, mas não tem pernas?",
+    "resposta1": "3",
+    "resposta2": "Água",
     "device": "ovo8"
   },
   {
     "titulo": "🍬 Desafio 9",
-    "pergunta1": "Sou pequeno, doce e colorido. O que sou?",
-    "pergunta2": "Quanto é 14 ÷ 2?",
-    "resposta1": "bala",
-    "resposta2": "7",
+    "pergunta1": "Qual é o oposto de “cheio”?",
+    "pergunta2": "O que é leve como uma pena, mas nem o mais forte consegue segurar por muito tempo?",
+    "resposta1": "Vazio",
+    "resposta2": "Respiração",
     "device": "ovo9"
   },
   {
     "titulo": "🏆 Desafio 10",
-    "pergunta1": "Quem encontra todos os ovos ganha o quê?",
-    "pergunta2": "Quanto é 6 x 6?",
-    "resposta1": "premio",
-    "resposta2": "36",
+    "pergunta1": "Qual gás os seres humanos precisam para respirar?",
+    "pergunta2": "O que desaparece quando você fala o nome dele?",
+    "resposta1": "Oxigênio",
+    "resposta2": "Silêncio",
     "device": "ovo10"
   }
 ]
