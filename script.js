@@ -3,6 +3,15 @@ let usados = JSON.parse(localStorage.getItem("usados")) || {};
 let atual = Number(localStorage.getItem("atual"));
 let radarAtivo = false;
 
+// ================= FUNÇÃO PARA LIMPAR TEXTO =================
+function limparTexto(texto) {
+  return texto
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, ""); // remove acentos
+}
+
 // ================= LISTA DE OVOS =================
 async function carregarLista() {
   let res = await fetch("desafios.json");
@@ -51,13 +60,15 @@ async function carregarDesafio() {
 function validar() {
   let d = desafios[atual];
 
-  let r1 = document.getElementById("r1").value.trim().toLowerCase();
-  let r2 = document.getElementById("r2").value.trim().toLowerCase();
+  let r1 = limparTexto(document.getElementById("r1").value);
+  let r2 = limparTexto(document.getElementById("r2").value);
 
-  if (r1 == d.resposta1 && r2.includes(d.resposta2)) {
+  let resposta1 = limparTexto(d.resposta1);
+  let resposta2 = limparTexto(d.resposta2);
+
+  if (r1 === resposta1 && r2.includes(resposta2)) {
     usados[atual] = true;
     localStorage.setItem("usados", JSON.stringify(usados));
-
     window.location.href = "busca.html";
   } else {
     document.getElementById("feedback").innerText = "❌ Tente novamente";
@@ -100,7 +111,6 @@ async function buscar() {
     // ESCUTA RESPOSTA
     RX.addEventListener('characteristicvaluechanged', (event) => {
       let value = new TextDecoder().decode(event.target.value).trim();
-
       console.log("Recebido:", value);
 
       if (value.includes(d.device)) {
