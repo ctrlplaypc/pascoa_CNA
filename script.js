@@ -3,6 +3,7 @@ let usados = JSON.parse(localStorage.getItem("usados")) || {};
 let atual = Number(localStorage.getItem("atual"));
 let radarAtivo = false;
 
+
 // ================= LISTA DE OVOS =================
 async function carregarLista() {
   let res = await fetch("desafios.json");
@@ -70,7 +71,7 @@ async function buscar() {
     let d = desafios[atual];
 
     let device = await navigator.bluetooth.requestDevice({
-      filters: [{ namePrefix: "BBC micro:bit" }],
+      acceptAllDevices: true,
       optionalServices: ['6e400001-b5a3-f393-e0a9-e50e24dcca9e']
     });
 
