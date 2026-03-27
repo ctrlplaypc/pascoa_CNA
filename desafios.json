@@ -5,7 +5,7 @@
     "pergunta2": "Quanto é 10 + 5?",
     "resposta1": "coelho",
     "resposta2": "15",
-    "device": "BBC micro:bit"
+    "device": "ovo1"
   },
   {
     "titulo": "🍫 Desafio 2",
@@ -13,7 +13,7 @@
     "pergunta2": "Quanto é 6 x 2?",
     "resposta1": "chocolate",
     "resposta2": "12",
-    "device": "BBC micro:bit"
+    "device": "ovo2"
   },
   {
     "titulo": "🥚 Desafio 3",
@@ -21,7 +21,7 @@
     "pergunta2": "Quanto é 20 ÷ 4?",
     "resposta1": "ovo",
     "resposta2": "5",
-    "device": "BBC micro:bit"
+    "device": "ovo3"
   },
   {
     "titulo": "🐣 Desafio 4",
@@ -29,7 +29,7 @@
     "pergunta2": "Quanto é 7 + 3?",
     "resposta1": "pintinho",
     "resposta2": "10",
-    "device": "BBC micro:bit"
+    "device": "ovo4"
   },
   {
     "titulo": "🥕 Desafio 5",
@@ -37,7 +37,7 @@
     "pergunta2": "Quanto é 9 + 1?",
     "resposta1": "cenoura",
     "resposta2": "10",
-    "device": "BBC micro:bit"
+    "device": "ovo5"
   },
   {
     "titulo": "🌸 Desafio 6",
@@ -45,7 +45,7 @@
     "pergunta2": "Quanto é 5 x 3?",
     "resposta1": "flor",
     "resposta2": "15",
-    "device": "BBC micro:bit"
+    "device": "ovo6"
   },
   {
     "titulo": "🎁 Desafio 7",
@@ -53,7 +53,7 @@
     "pergunta2": "Quanto é 8 x 2?",
     "resposta1": "presente",
     "resposta2": "16",
-    "device": "BBC micro:bit"
+    "device": "ovo7"
   },
   {
     "titulo": "🐰 Desafio 8",
@@ -61,7 +61,7 @@
     "pergunta2": "Quanto é 12 ÷ 3?",
     "resposta1": "coelho",
     "resposta2": "4",
-    "device": "BBC micro:bit"
+    "device": "ovo8"
   },
   {
     "titulo": "🍬 Desafio 9",
@@ -69,7 +69,7 @@
     "pergunta2": "Quanto é 14 ÷ 2?",
     "resposta1": "bala",
     "resposta2": "7",
-    "device": "BBC micro:bit"
+    "device": "ovo9"
   },
   {
     "titulo": "🏆 Desafio 10",
@@ -77,6 +77,6 @@
     "pergunta2": "Quanto é 6 x 6?",
     "resposta1": "premio",
     "resposta2": "36",
-    "device": "BBC micro:bit"
+    "device": "ovo10"
   }
 ]
